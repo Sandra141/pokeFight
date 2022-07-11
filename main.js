@@ -24,4 +24,4 @@ app.get("/pokemon/:id/:info", (req, res) => {
     res.send(pokemon[info]);
 });
 
-app.listen(PORT, () => console.log("server listening on port 3000"));
+app.listen(PORT, () => console.log(`server listening on port ${port}`));
